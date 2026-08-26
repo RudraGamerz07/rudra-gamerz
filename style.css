@@ -504,3 +504,13 @@ footer{
         opacity: 0;
     }
 }
+/* Professional hover effect */
+nav a {
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: cyan;
+  text-shadow: 0 0 10px cyan;
+  transform: translateY(-2px);
+}
